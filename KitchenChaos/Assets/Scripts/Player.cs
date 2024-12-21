@@ -6,8 +6,6 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed = 4;
 
-    private int _playerIndex = -1;
-
     private Vector2 inputVector;
 
     private void Awake()
